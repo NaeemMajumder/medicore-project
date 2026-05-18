@@ -1,16 +1,29 @@
-Receptionist Dashboard
+Manage Doctors [Admin panel]
 ### Screen Definition
-- display-total-appointments [Mandatory]
-- display-pending-bills [Mandatory]
-- display-lab-results-to-upload [Mandatory]
-- display-total-patients-registered [Mandatory]
-- display-todays-appointments-table [Mandatory]
-- display-unpaid-bills [Mandatory]
+- display-doctors-table [Mandatory]
+- input-search-by-name-or-specialization [Mandatory]
+- button-add-new-doctor [Mandatory]
+- input-name [Mandatory]
+- input-email [Mandatory]
+- input-phone [Mandatory]
+- input-specialization [Mandatory]
+- button-add-doctor [Mandatory]
+- button-edit [Mandatory]
+- button-delete [Mandatory]
+- button-save-changes [Mandatory]
+- button-cancel [Mandatory]
+- modal-confirm-deletion [Mandatory]
 ### User Story
-As a receptionist, I want to see a front desk overview dashboard so that I can quickly monitor today's appointments, pending bills and lab results awaiting upload.
+As an admin, I want to add, update or remove doctors so that the system has accurate and updated doctor information.
 ### Acceptance Criteria
-- Dashboard shows total appointments, pending bills, lab results to upload and total registered patients
-- Today's appointments table shows patient name, doctor name, time and status
-- Unpaid bills section shows patient name, invoice ID and amount
-- All data updates in real time
+- Table shows doctor name, email, phone, specialization and date added
+- Admin can search by name or specialization
+- All fields must be filled before adding a new doctor
+- Email must be in valid format
+- Phone must be valid
+- Success toast notification shown after add, update or delete
+- Confirm deletion modal prevents accidental deletions
+- Doctor Added toast shown in green after successful add
+- Doctor Deleted toast shown in red after successful delete
+- Doctor Data Updated toast shown in green after successful update
 **Status: Implemented**
