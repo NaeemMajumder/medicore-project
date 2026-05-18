@@ -20,3 +20,4 @@ As an admin, I want to see a complete system overview so that I can monitor hosp
 - Admin can filter data by date range
 - Export report as PDF button generates a full report
 **Status: Implemented**
+
