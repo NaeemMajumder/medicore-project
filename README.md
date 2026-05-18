@@ -1,11 +1,11 @@
-#MediCore Project
-Hospital Management System - Receptionist Module
- 
-## Module: Receptionist / Administrative Staff
-This module covers all front desk operations including
-appointment management, billing, lab result upload,
-patient profile view and ward management.
- 
+# MediCore Project
+Hospital Management System - Admin Module
+
+## Module: Admin Panel
+This module covers all system administration operations
+including managing doctors, receptionists, ward and bed
+management, activity log and system reports.
+
 ## Team Member
-- Name: Refayat Alam
-- Branch: feature/receptionist-dashboard
+- Name: Naeem Majumder
+- Branch: feature/admin-dashboard
