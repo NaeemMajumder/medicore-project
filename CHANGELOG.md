@@ -2,4 +2,4 @@
  
 ## [1.0.0] - 2026-05-18
 ### Added
--  Receptionist Dashboard
+- Doctor Dashboard

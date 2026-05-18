@@ -1,16 +1,49 @@
-Receptionist Dashboard
+# Implemented Features
+ 
+## T-25: Doctor Dashboard
+
 ### Screen Definition
-- display-total-appointments [Mandatory]
-- display-pending-bills [Mandatory]
-- display-lab-results-to-upload [Mandatory]
-- display-total-patients-registered [Mandatory]
-- display-todays-appointments-table [Mandatory]
-- display-unpaid-bills [Mandatory]
+
+- display-todays-appointments [Mandatory]
+
+- display-total-patients [Mandatory]
+
+- display-pending-lab-requests [Mandatory]
+
+- display-prescription-written [Mandatory]
+
+- display-appointments-table [Mandatory]
+
+- display-recent-patients [Mandatory]
+
+- button-add-prescription [Mandatory]
+
+- button-request-lab-test [Mandatory]
+
+- button-approve [Mandatory]
+
+- button-reject [Mandatory]
+
 ### User Story
-As a receptionist, I want to see a front desk overview dashboard so that I can quickly monitor today's appointments, pending bills and lab results awaiting upload.
+
+As a doctor, I want to see a clinical overview dashboard so that I can monitor today's appointments, pending lab requests and recent patients at a glance.
+
 ### Acceptance Criteria
-- Dashboard shows total appointments, pending bills, lab results to upload and total registered patients
-- Today's appointments table shows patient name, doctor name, time and status
-- Unpaid bills section shows patient name, invoice ID and amount
-- All data updates in real time
+
+- Dashboard shows today's appointments count with approval needed count
+
+- Total patients shown with weekly increase
+
+- Pending lab requests shown with awaiting results count
+
+- Prescriptions written this month shown
+
+- Today's appointments table shows patient, time, reason, status and action
+
+- Approve and Reject buttons appear for pending appointments only
+
+- Recent patients section shows latest visited patients with view button
+
+- Add Prescription and Request Lab Test quick action buttons available
+
 **Status: Implemented**

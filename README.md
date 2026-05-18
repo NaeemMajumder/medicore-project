@@ -1,11 +1,11 @@
-#MediCore Project
-Hospital Management System - Receptionist Module
+# MediCore Project
+Hospital Management System - Doctor Module
  
-## Module: Receptionist / Administrative Staff
-This module covers all front desk operations including
-appointment management, billing, lab result upload,
-patient profile view and ward management.
+## Module: Doctor Dashboard
+This module covers all clinical operations for doctors
+including appointment management, patient list, prescriptions,
+medical reports, lab test requests and discharge summary.
  
 ## Team Member
-- Name: Refayat Alam
-- Branch: feature/receptionist-dashboard
+- Name: MD. ISHRAQ AL-DIN SARKER ARNOB
+- Branch: feature/doctor-dashboard
