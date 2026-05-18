@@ -1,20 +1,16 @@
-
- 
-## Patient Dashboard
+Receptionist Dashboard
 ### Screen Definition
-- display-upcoming-appointments [Mandatory]
-- display-active-medications [Mandatory]
-- display-outstanding-balance [Mandatory]
-- display-todays-vitals [Mandatory]
-- display-recent-lab-results [Mandatory]
-- display-care-team [Mandatory]
-- display-activity-tracking [Mandatory]
+- display-total-appointments [Mandatory]
+- display-pending-bills [Mandatory]
+- display-lab-results-to-upload [Mandatory]
+- display-total-patients-registered [Mandatory]
+- display-todays-appointments-table [Mandatory]
+- display-unpaid-bills [Mandatory]
 ### User Story
-As a patient, I want to see a personalized dashboard so that I can track my health and upcoming appointments at a glance.
+As a receptionist, I want to see a front desk overview dashboard so that I can quickly monitor today's appointments, pending bills and lab results awaiting upload.
 ### Acceptance Criteria
-- Dashboard shows upcoming appointments with doctor name and date
-- Vitals section displays blood pressure, heart rate, SpO2, temperature, blood glucose and weight
-- Recent lab results are shown with status
-- Care team doctors are listed with quick access
-- Outstanding balance is displayed with invoice count
+- Dashboard shows total appointments, pending bills, lab results to upload and total registered patients
+- Today's appointments table shows patient name, doctor name, time and status
+- Unpaid bills section shows patient name, invoice ID and amount
+- All data updates in real time
 **Status: Implemented**
