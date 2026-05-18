@@ -8,4 +8,4 @@ management, activity log and system reports.
 
 ## Team Member
 - Name: Naeem Majumder
-- Branch: feature/admin-manage-doctor
+- Branch: feature/admin-panel-manage-doctor
